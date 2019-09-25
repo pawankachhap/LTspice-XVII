@@ -1,0 +1,11 @@
+* C:\Users\hp\Desktop\LTspice files\problem_351.asc
+R1 N002 N001 500
+R2 0 N003 1k
+D1 N002 N003 D
+D2 0 N002 D
+V1 N001 0 1
+.model D D
+.lib C:\Users\hp\Documents\LTspiceXVII\lib\cmp\standard.dio
+.dc V1 -2 2 1m
+.backanno
+.end
