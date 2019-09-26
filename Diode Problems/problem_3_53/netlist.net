@@ -1,0 +1,15 @@
+* C:\Users\hp\Desktop\LTspice files\LTspice-XVII\Diode Problems\problem_3_53\problem_353.asc
+D1 N001 N002 D
+D2 N004 N003 D
+D3 N001 N004 D
+D4 N002 N003 D
+V1 N002 0 1
+Vee P001 0 -2.5
+Vcc P002 0 2.5
+R1 P002 N001 1k
+R2 N003 P001 1k
+.model D D
+.lib C:\Users\hp\Documents\LTspiceXVII\lib\cmp\standard.dio
+.dc V1 -2 2 10m
+.backanno
+.end
